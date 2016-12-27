@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav {
+  /*border: solid 1px gray;*/
+  padding-left: 65%;
+}
+
+.nav li{
+  display: inline-block;
+  margin: 10px;
+}
+
+.nav li:hover {
+  text-decoration: underline;
+}
+
+#logo {
+  /*border: solid 5px yellow;*/
+  padding-top: 110px;
+}
+
+#logo img {
+  /*border: solid 2px pink;*/
+  position: relative;
+  left: 38%;
+}
+
+.resize {
+  height: 100px;
+}
+
+.buttons {
+  /*border: solid 5px green;*/
+}
+
+.buttons li {
+  /*border: solid 1px gray;*/
+  display: inline-block;
+  position: relative;
+  left: 38%;
+  padding: 10px;
+}
