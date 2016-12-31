@@ -1,28 +1,8 @@
 body {
   margin: 0;
-}
-
-li {
   font-family: Arial;
   font-size: 13px;
   color: gray;
-}
-#logo img {
-  display: block;
-  margin-top: 7%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.buttons {
-  /*border: solid 5px green;*/
-}
-
-.buttons li {
-  /*border: solid 1px gray;*/
-  display: inline-block;
-  position: relative;
-  left: 38%;
-  padding: 10px;
 }
 .nav {
   position: absolute;
@@ -53,6 +33,22 @@ li {
 }
 #signIn:hover {
   text-decoration: none;
+}
+#logo img {
+  display: block;
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttons li {
+  /*border: solid 1px gray;*/
+  display: inline-block;
+  position: relative;
+  left: 38%;
+  padding: 10px;
+}
+.blurb {
+
 }
 .containerfooter {
   position: absolute;
