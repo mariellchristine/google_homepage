@@ -35,17 +35,49 @@ li {
   left: 38%;
   padding: 10px;
 }
-
-.clearfix {
+.nav {
     display: inline-block;
     width: 98%;
 }
-
-.clearfix li {
+.nav li {
     display: inline-block;
     float: right;
     padding-right: 10px;
 }
-.clearfix li:hover {
+.nav li:hover {
+  text-decoration: underline;
+}
+.containerfooter {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 18px;
+  background-color: #efefef;
+}
+.leftfooter{
+  position: absolute;
+  bottom: -9px;
+  left: -5px;
+  text-align: left;
+}
+.rightfooter {
+  position: absolute;
+  bottom: -9px;
+  right: 30px;
+  text-align: right;
+}
+.leftfooter li, .rightfooter li {
+  display: inline-block;
+  color: #666;
+  margin: 0;
+}
+.leftfooter li {
+  padding-right: 25px;
+}
+.rightfooter li {
+  padding-left: 25px;
+}
+.leftfooter li:hover, .rightfooter li:hover  {
   text-decoration: underline;
 }
