@@ -38,15 +38,17 @@ body {
 }
 #logo img {
   display: block;
-  margin-top: 7%;
+  margin-top: 15%;
   margin-left: auto;
   margin-right: auto;
 }
 .afterpicnav {
-  text-align: center;
+  text-align: ;
+  display: inline-block;
+  margin-left: 37%;
 }
 .afterpicnav li {
-  display: inline-block;
+  display: inline;
   margin: 3px;
   color: #666;
   background-color: #efefef;
@@ -55,7 +57,6 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   font-weight: bolder;
-  border: solid .5px white;
 }
 .afterpicnav li:hover {
   border: solid .5px #e5e5e5;
