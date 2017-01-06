@@ -42,12 +42,22 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.afterpicnav {
-  text-align: ;
-  display: inline-block;
-  margin-left: 37%;
+form {
+  text-align: center;
 }
-.afterpicnav li {
+input[type=text], select {
+  width: 600px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.btn-default {
+  border: solid .5px white;
   display: inline;
   margin: 3px;
   color: #666;
@@ -57,10 +67,16 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   font-weight: bolder;
+  display: inline-block;
 }
-.afterpicnav li:hover {
+.btn-default:hover {
   border: solid .5px #e5e5e5;
   color: black;
+}
+.afterpicnav {
+  text-align: ;
+  display: inline-block;
+  margin-left: 37%;
 }
 .containerfooter {
   position: absolute;
