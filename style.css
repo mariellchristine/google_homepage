@@ -45,7 +45,7 @@ body {
 form {
   text-align: center;
 }
-input[type=text], select {
+input[type=text] {
   width: 600px;
   padding: 12px 20px;
   border-radius: 4px;
@@ -55,6 +55,9 @@ input[type=text], select {
   margin-right: auto;
   margin-top: 25px;
   margin-bottom: 30px;
+}
+input:focus {
+  outline: none;
 }
 .btn-default {
   border: solid .5px white;
